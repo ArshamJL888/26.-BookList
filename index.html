@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/5d397587b1.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="icon/icons8-book-32 (1).png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Book List</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="generalTitle"><i class="fa fa-book-open"></i> Local Storage JS <span id="yl">Book </span> List</h1>
+        <div class="userInformation">
+            <div class="input">
+                <p class="heading">Title:</p>
+                <input type="text" id="title">
+                <p class="Error" id="titleErr">Error: invalid input for title! (title must have 1 or more letters)</p>
+            </div>
+            <div class="input">
+                <p class="heading">Author:</p>
+                <input type="text" id="author">
+                <p class="Error" id="authorErr">Error: invalid input for author! (Author must have 3 or more letters)
+                </p>
+            </div>
+            <div class="input">
+                <p class="heading">Year:</p>
+                <input type="text" id="year">
+                <p class="Error" id="yearErr">Error: invalid number ( Please enter a valid number)!</p>
+            </div>
+            <div class="btn">
+                <button id="add">Add Book</button>
+                <button id="clear">Clear Books</button>
+            </div>
+        </div>
+        <div class="bookList">
+            <table cellspacing="0" cellpadding="0" id="table">
+                <thead>
+                    <tr>
+                        <th class="r1">Title</th>
+                        <th class="r1">Author</th>
+                        <th class="r1">Year</th>
+                    </tr>
+                </thead>
+                <tbody id="list">
+                    
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+
+    <input type="date" name="" id="date">
+    <script src="js/app.js"></script>
+</body>
+
+</html>

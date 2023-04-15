@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --main-theme: white;
+    --main-color: #FFB300;
+    --main-text-colro: black;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--main-theme);
+}
+
+.generalTitle {
+    text-align: center;
+    margin: 1px auto;
+    font-size: 30px;
+    font-weight: 525;
+}
+
+#yl {
+    color: #FFB300;
+}
+
+.fa-book-open {
+    font-size: 28px;
+    color: #FFB300;
+    margin-right: 5px;
+}
+
+.container {
+    margin: 10px auto;
+    border: 0.5px solid black;
+    padding: 10px;
+    width: 1400px;
+    height: 725px;
+}
+
+.userInformation {
+    margin: auto;
+    /* border: 1px solid gray; */
+    width: 1350px;
+    height: 315px;
+    padding: 5px;
+    padding-top: 0;
+}
+
+.input {
+    width: 1190px;
+    height: 75px;
+    padding: 5px;
+    padding-top: 3px;
+    /* border: 0.5px solid gray; */
+    margin: 5px auto;
+}
+
+.heading {
+    margin: 0;
+    margin-left: 3px;
+    direction: ltr;
+    font-size: 18px;
+}
+
+input {
+    width: 1175px;
+    margin: 0;
+    border-radius: 7px;
+    height: 28px;
+    border: 0.5px solid gray;
+    font-size: 20px;
+    padding: 3px;
+    padding-left: 7.5px;
+}
+
+.btn {
+    width: 1190px;
+    height: 90px;
+    padding: 3px;
+    /* border: 0.5px solid gray; */
+    margin: 1px auto;
+    margin-bottom: 10px;
+}
+
+#add,
+#clear {
+    width: 1190px;
+    margin: 2.5px auto;
+    border-radius: 7px;
+    height: 37.5px;
+    color: var(--main-theme);
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--main-color);
+}
+
+#clear {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.bookList {
+    margin: 45px auto;
+    margin-bottom: 0;
+    /* border: 1px solid gray; */
+    width: 1350px;
+    height: 305px;
+    padding: 5px;
+    padding-top: 5px;
+}
+
+thead {
+    background-color: var(--main-theme);
+}
+
+#titleErr,
+#authorErr,
+#yearErr {
+    display: none;
+}
+
+tr {
+    width: 1190px;
+    margin: 0 auto;
+    border-radius: 7px;
+    height: 35px;
+    font-size: 14px;
+    text-align: center;
+    border-top: 0.5px solid gray;
+    border-bottom: 0.5px solid gray;
+}
+
+tr:nth-child(even) {
+    background-color: #EEEEEE;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+
+.r1 {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+table {
+    width: 1190px;
+    margin: 3px auto;
+    vertical-align: top;
+}
+
+td {
+    font-size: 16px;
+    font-weight: 420;
+}
+
+.Error {
+    margin-top: 0;
+    margin-left: 20px;
+    font-size: 11px;
+    font-weight: 450;
+    color: red;
+}
+
+#add:hover, #clear:hover {
+    background-color: #FFA000;
+}
